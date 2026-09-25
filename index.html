@@ -39,6 +39,68 @@
                 <br>
                 
             </fieldset>
+             <fieldset>
+                <legend>Perfil:</legend>
+                <p>Gênero</p>
+                <input type="radio" name=" userGender" value="Feminino ">
+                <label id="radio"> Feminino </label>
+                <br>
+                <input type="radio" name=" userGender" value="Masculino ">
+                <label for="userGender"> Masculino </label>
+                <br>
+                <input type="radio" name=" userGender" value="Prefiro não informar ">
+                <label for="userGender"> Prefiro não informar </label>
+                <br>
+                <label for="matitalStatus"> Estado Civil:</label>  
+                <select name="matitalStatus"> 
+                   <option value="naoinformado" selected hidden>Selecione...</option>  
+                   <option value="casado">Casado</option>
+                   <option value="solteiro">Solteiro</option> 
+                   <option value="divorciado">Divorciado </option>
+                   <option value="união">União estavel </option>
+                </select>
+
+                <br>
+
+                <label for="userState">Estado:</label>
+                <select name="userState" required>
+                    <option value="naoinformado" selected hidden>Selecione...</option>  
+                    <option value="acre">Acre</option>
+                    <option value="alagoas">Alagoas</option>
+                    <option value="amapa">Amapá</option>
+                    <option value="amazonas">Amazonas</option>
+                    <option value="bahia">Bahia</option>
+                    <option value="ceara">Ceará</option>
+                    <option value="distritofederal">Distrito Federal</option>
+                    <option value="espiritosanto">Espirito Santo</option>
+                    <option value="goias">Goiás</option>
+                    <option value="maranhao">Maranhão</option>
+                    <option value="matogrossoDosul">Mato Grosso do Sul</option>
+                    <option value="matogrosso">Mato Grosso</option>
+                    <option value="minasgerais">Minas Gerais</option>
+                    <option value="para">Pará</option>
+                    <option value="paraiba">Paraíba</option>
+                    <option value="paraná">Paraná</option>
+                    <option value="pernambuco">Pernambuco</option>
+                    <option value="piaui">Piauí</option>
+                    <option value="riodejaneiro">Rio de Janeiro</option>
+                    <option value="riograndedonorte">Rio Grande do Norte</option>
+                    <option value="riograndedosul">Rio Grande do Sul</option>
+                    <option value="rondoia">Rondônia</option>
+                    <option value="roraima">Roraima</option>
+                    <option value="santacatarina">Santa Catarina</option>
+                    <option value="saopaulo">São Paulo</option>
+                    <option value="sergipe">Sergipe</option>
+                    <option value="tocantins">Tocantins</option>
+                </select>
+                <br>
+                <label for="userCity">Cidade:</label>
+                <input type="text" name="userCity" required>
+                <br>
+            </fieldset>
+
+            
+
             <button type="submit">Enviar</button>
 
         </form>
