@@ -45,6 +45,12 @@ h1 {
     font-weight: 400;
     font-style: normal;
 } 
+h1.pagina-sucesso{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
 
 form {
     background-color: #FFFFFF;
@@ -122,7 +128,7 @@ button:hover {
     color: white;
 }
 
-button [type="reset"]:hover {
+button[type="reset"]:hover {
     background-color: orangered;
     color:white;
 }
